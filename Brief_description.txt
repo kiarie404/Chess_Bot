@@ -1,0 +1,8 @@
+This is a web based Chess AI bot.
+It does not have true AI, or deep learning capabilities.
+It entirely depends on the Minimax algorithm to find a suitable move.
+It uses the alpha-beta algorithm to improve its efficiency.
+
+You can adjust the depth of the AI move searching.
+The deeper the search, the more of an intelligent move the AI makes.
+However, more depth equals more computation time consumed. A double edged sword 
