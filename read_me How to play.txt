@@ -4,7 +4,7 @@ You can play the game :
 
 
 ***** Online ******
-  Visit this page :
+  Visit this page : https://kiarie404.github.io/Chess_Bot/
 
 ***** offline ******
   1. Download the folder called "Codebase"
