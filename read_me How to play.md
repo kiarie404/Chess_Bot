@@ -4,6 +4,7 @@ You can play the game :
 
 
 ***** Online ******
+
   Visit this page : https://kiarie404.github.io/Chess_Bot/
 
 ***** offline ******
