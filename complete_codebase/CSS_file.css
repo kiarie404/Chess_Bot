@@ -1,0 +1,73 @@
+.board {
+    width: 500px;
+    margin: auto
+}
+
+.info {
+    width: 400px;
+    margin: auto;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+.button {
+  background-color: purple; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#redo_button {
+  background-color: white;
+  color: black;
+  border: 2px solid purple;
+}
+
+#redo_button:hover {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+}
+
+#undo_button  {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+#undo_button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+body {
+  background-image: url('./img/chess backgrounds/p9.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+span {
+  background-color: black; /* Green */
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: 2px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}

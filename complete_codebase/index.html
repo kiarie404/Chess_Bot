@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="CSS_file.css">
+</head>
+<body>
+<!-- this div below me is the actual board ... linked to the js scripts-->
+  <div id="board" class="board"></div>
+<!-- end of the board display -->
+
+<!-- start of stats and other buttons -->
+  <div class="info">
+      <br><br>
+      <button type="button" class="button" name="undo_button" id="undo_button" > Undo </button>
+      <button type="button" class="button" name="redo_button" id="redo_button" > Redo </button>
+      <br>
+      <span>Search depth : </span>
+      <select id="search-depth">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select>
+
+      <br>
+      <span>Positions evaluated : </span>
+      <span id="position-count"></span>
+      <br>
+      <span>Search duration : </span>
+      <span id="time"></span>
+      <br>
+  </div>
+
+<!-- end of stats and other buttons -->
+
+<script src="lib/jquery/jquery-3.2.1.min.js"></script>
+<script src="lib/chessboardjs/js/chess.js"></script>
+<script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+<script src="script_file.js"></script>
+<script>
+
+</script>
+</body>
+</html>
